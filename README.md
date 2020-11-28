@@ -7,4 +7,4 @@ https://github.com/colating/colating-rime-ime
 https://github.com/colating
 
 ## Colating语言用户手册：文字
-https://colating.github.com/
+https://colating.github.io/
