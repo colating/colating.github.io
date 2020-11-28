@@ -6,5 +6,5 @@ https://github.com/colating/colating-rime-ime
 ## colating 项目主页：
 https://github.com/colating
 
-## 语言资料主页：
+## Colating语言用户手册：文字
 https://colating.github.com/
