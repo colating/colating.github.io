@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Colating Language | Official Home Page </title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/cerulean.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <!-- Code highlighter CSS -->
+    <link href="css/pygments-default.css" rel="stylesheet">
+    <script type="text/javascript">
+  <!-- Google Analytics initialization -->
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32518208-2']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+  <!-- Adds slight delay to links to allow async reporting -->
+  function trackOutboundLink(link, category, action) {
+	try {
+	  _gaq.push(['_trackEvent', category , action]);
+	} catch(err){}
+
+	setTimeout(function() {
+	  document.location.href = link.href;
+	}, 100);
+  }
+  </script>
+    <style type="”text/css”">
+	body{
+		font-size:58px;
+		line-height:300%
+		margin: 16em 10em 16em 10em;
+		}
+		</style>
+  </head>
+  <body style="                                                                             	 font-size: 22.2px; line-height: 200%">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>	 <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>  <![endif]-->
+    <script src="./jquery/jquery.js"></script>
+    <script src="./bootstrapcdn/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="js/lang-tabs.js"></script>
+    <script src="js/downloads.js"></script>
+    <div class="container" style="max-width: 1200px;">
+      <div class="masthead">
+        <p class="lead"> <a href="https://colating.win/"> <img src="./images/bright-colating-logo.png"
+
+              style="height:100px; width:auto; vertical-align: bottom; margin-top: 10px;"></a><span
+
+            class="tagline" style="font-size: 17.2px; font-weight:550; color: #6ea136; line-height: 150%">
+            容易学习，轻松造字，强化逻辑，弹性包容；聚焦论域，放眼无限！<br>
+            Easy to study, Easy create new word, Strengthen the logic, Elastic
+            inclusion;<br>
+            Focus on theory of domain, Look to the infinite !</span> </p>
+      </div>
+      <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header"> <button type="button" class="navbar-toggle"
+
+            data-toggle="collapse" data-target="#navbar-collapse-1"> <span class="sr-only">Toggle
+              navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+            <span class="icon-bar"></span> </button> </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+          <ul class="nav navbar-nav" style="font-size:15.6px; line-height: 150%">
+            <li class="dropdown" style="font-size:17.2px;"> <a href="#" class="dropdown-toggle"
+
+                data-toggle="dropdown"> 下载.Download <b class="caret"></b> </a>
+              <ul class="dropdown-menu" style="font-size:16px;">
+                <li><a href="changelog.html">ChangeLog</a></li>
+                <li><a href="download.html">Download</a></li>
+              </ul>
+            </li>
+            <li class="dropdown" style="font-size:17.2px;"> <a href="#" class="dropdown-toggle"
+
+                data-toggle="dropdown"> 文档.Document <b class="caret"></b> </a>
+              <ul class="dropdown-menu" style="font-size:16px;">
+                <li><a href="word-formation.html">构词法手册</a></li>
+                <li><a href="grammar.html">语法手册</a></li>
+                <li><a href="rhetoric.html">修辞手册</a></li>
+                <li><a href="capriccio.html">语文随想</a></li>
+                <li><a href="./notes/">重要记事 Notes</a></li>
+                <li><a href="log-idea/">日志 Idea Log</a></li>
+                <li><a href="other-doc.html">其他</a></li>
+              </ul>
+            </li>
+            <li class="dropdown" style="font-size:17.2px;"> <a href="#" class="dropdown-toggle"
+
+                data-toggle="dropdown"> 课程.Course <b class="caret"></b> </a>
+              <ul class="dropdown-menu" style="font-size:16px;">
+                <li><a href="audio.html">音频</a></li>
+                <li><a href="video.html">视频</a></li>
+                <li><a href="other-course.html">其他</a></li>
+              </ul>
+            </li>
+            <li class="dropdown" style="font-size:17.2px;"> <a href="#" class="dropdown-toggle"
+
+                data-toggle="dropdown"> 社区.Community <b class="caret"></b> </a>
+              <ul class="dropdown-menu" style="font-size:16px;">
+                <li><a href="application.html">语言应用.Application</a></li>
+                <li><a href="case.html">典型案例.Case</a></li>
+                <li><a href="philosophy.html"><del><ins>
+                        &nbsp;哲学思想.Philosophy&nbsp;</ins></del></a></li>
+                <li><a href="explore.html">前沿探索.Explore</a></li>
+              </ul>
+            </li>
+            <li class="dropdown" style="font-size:17.2px;"> <a href="#" class="dropdown-toggle"
+
+                data-toggle="dropdown"> 开发者.Developers <b class="caret"></b> </a>
+              <ul class="dropdown-menu" style="font-size:16px;">
+                <li><a href="ime.html">输入法.IME</a></li>
+                <li><a href="colating.html">可乐听.Colating</a></li>
+                <li><a href="other-lang.html">其他.Others</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown" style="font-size:17.2px;"> <a href="https://www.colating.win/"
+
+                class="dropdown-toggle" data-toggle="dropdown">Colating Group
+                Foundation<b class="caret"></b></a>
+              <ul class="dropdown-menu" style="font-size:16px;">
+                <li><a href="https://colating.win/donate/"> 捐给&amp;赠予.Donate</a></li>
+                <li><a href="https://a.colating.win/"> 成员.Members</a></li>
+                <li><a href="https://colating.win/foundation/sponsorship.html">
+                    许可.License</a></li>
+                <li><a href="https://colating.win/foundation/thanks.html">
+                    感谢.Thanks</a></li>
+                <li><a href="https://a.colating.win/security/">Security</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse --> </nav>
+      <div class="row">
+        <div class="col-md-3 col-md-push-9">
+          <div class="news" style="margin-bottom: 12px;">
+            <h5 style="margin: 15px 0px 15px 0px;
+                       font-size: 16.2px; font-weight: 520; color: #e16a1a;"> 最新
+              . Latest News</h5>
+            <ul class="list-unstyled" style=" line-height:20px;">
+              <li style="margin: 10px 0px 10px 0px;"> <b><a href="news/index.html"><span
+
+                      style="font-size: 14px;"> 消息：Colating News</span></a> <span
+
+                    class="small">(Jan 07, 202x)</span></b></li>
+              <li style="margin: 0px 0px 0px 0px;"><b><a href="./dictionary/index.html"><span
+
+                      style="font-size: 14px;"> Dictionary 0.0.0.0 R.</span></a>
+                  <span class="small">(Sep 12, 202x)</span></b></li>
+              <li style="margin: 0px 0px 0px 0px;"><b><a href="./grammar/index.html"><span
+
+                      style="font-size: 14px;"> Grammar 0.0.0.0 R.</span></a> <span
+
+                    class="small">(Sep 08, 202x)</span></b></li>
+              <li style="margin: 0px 0px 0px 0px;"><b><a href="./ime/index.html"><span
+
+                      style="font-size: 14px;"> IME 0.0.0.0 R. </span></a><span
+
+                    class="small">(Jun 18, 2020)</span></b></li>
+              <li style="margin: 10px 0px 0px 0px;"> <b><a href="./docs-open/COLATING%E4%BA%BA%E7%B1%BB%E9%80%9A%E7%94%A8%E8%AF%AD%E8%A8%80%E6%96%87%E5%AD%97%E5%88%9B%E9%80%A0%E5%93%B2%E5%AD%A6%E6%80%9D%E6%83%B3.pdf">
+                    <span style="font-size:14px;"><del><ins>&nbsp;哲学思想&nbsp;</ins></del></span></a>
+                  <a href="/pdfjs/web/viewer.html?file=/docs-open/COLATING%E4%BA%BA%E7%B1%BB%E9%80%9A%E7%94%A8%E8%AF%AD%E8%A8%80%E6%96%87%E5%AD%97%E5%88%9B%E9%80%A0%E5%93%B2%E5%AD%A6%E6%80%9D%E6%83%B3.pdf">
+                    <span style="font-size:14px; color: #ff3b3b;">0.0.0.0 R.</span>
+                  </a><span class="small">(Jun 18, 2020)</span></b></li>
+              <li style="margin: 0px 0px 0px 0px;"><b><a href="./docs-open/COLATING%E4%BA%BA%E7%B1%BB%E9%80%9A%E7%94%A8%E8%AF%AD%E8%A8%80%E6%96%87%E5%AD%97%E5%BA%94%E7%94%A8%E5%8E%9F%E7%90%86.pdf">
+                    <span style="font-size: 14px;">应用原理&nbsp;</span></a> <a href="/pdfjs/web/viewer.html?file=/docs-open/COLATING%E4%BA%BA%E7%B1%BB%E9%80%9A%E7%94%A8%E8%AF%AD%E8%A8%80%E6%96%87%E5%AD%97%E5%BA%94%E7%94%A8%E5%8E%9F%E7%90%86.pdf">
+                    <span style="font-size: 14px;"> 0.0.0.0 R. </span></a> <span
+
+                    class="small">Jun 18, 2020</span></b></li>
+              <li style="margin: 0px 0px 0px 0px;"><b><a href="./docs-open/COLATING%20LANGUAGE%E5%85%B8%E5%9E%8B%E4%BE%8B%E5%AD%90%E5%88%86%E6%9E%90.pdf">
+                    <span style="font-size: 14px;"> 典型例子&nbsp;</span></a> <a href="/pdfjs/web/viewer.html?file=/docs-open/COLATING%20LANGUAGE%E5%85%B8%E5%9E%8B%E4%BE%8B%E5%AD%90%E5%88%86%E6%9E%90.pdf">
+                    <span style="font-size: 14px;">0.0.0.0 R. </span></a><span
+
+                    class="small">(Jun 18, 2020)</span></b></li>
+              <li style="margin: 0px 0px 0px 0px;"><b><a href="./docs-open/A1-Colating-Manual/"><span
+
+                      style="font-size: 14px;"> 用户手册 Manual 0.0.0.0 R. </span></a><span
+
+                    class="small">(Jun 18, 2020)</span></b></li>
+              <li style="margin: 15px 0px 0px 0px; line-height: 70%;"><b><span style="font-size:14px; color:#e16a1a;">
+                    Note: </span><span class="small">some .pdf/.doc etc. Right
+                    click the File NAMe can DOWNLOAD, and click the VERsion
+                    Number to VIEW only.</span></b></li>
+              <p class="small" style="margin: 10px 0px 10px 0px; font-size:15px; text-align: right;"><a
+
+                  href="archive/index.html"> <b>Archive &nbsp; </b></a></p>
+            </ul>
+          </div>
+          
+          <div style="text-align:center; margin-bottom: 20px;"> <a href="https://a.colating.win/donate">
+              <img src="images/donate-234x60.png">
+            </a> </div>
+          
+          <div class="hidden-xs hidden-sm"> <a href="downloads.html" class="btn btn-success btn-lg btn-block"
+
+              style="margin-bottom: 30px;"> Download Colating IME in OS </a> </div>
+          <div class="hidden-xs hidden-sm"> </div>
+          <div class="hidden-xs hidden-sm">
+            <ul class="list-none" style="font-size: 20.2px; line-height: 180%">
+              <li style="font-size: 20.2px; font-weight: 500; color: #555;"> 综述</li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 词汇数量的确定</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 音素数量的确定</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 文字创造方法论</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 文盲产生的机理</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 语言文字的本质是什么</a></li>
+            </ul>
+          </div>
+          <div class="hidden-xs hidden-sm">
+            <ul class="list-none" style="font-size: 20.2px; line-height: 180%">
+              <li style="font-size: 20.2px; font-weight: 500; color: #555;">
+                语言文字哲学理论 </li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 无尽宇宙与人类智慧</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 有限与无限</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 可数与不可数</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 局限与超越</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 人类语言文字比较</a></li>
+            </ul>
+          </div>
+          <div class="hidden-xs hidden-sm">
+            <ul class="list-none" style="font-size: 20.2px; line-height: 180%">
+              <li style="font-size: 20.2px; font-weight: 500; color: #555;"> 语音</li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 再论语音数量</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 音素与字母</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 字母防篡改的创造</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 语音流的识别</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 拼音与音素压缩</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 拼音与语音</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 语音的未来</a></li>
+            </ul>
+          </div>
+          <div class="hidden-xs hidden-sm">
+            <ul class="list-none" style="font-size: 20.2px; line-height: 180%">
+              <li style="font-size: 20.2px; font-weight: 500; color: #555;"> 构词法</li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 句子与音乐</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 单词与音节</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 语音流的标点符号体现</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 自由词素</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 基本词根</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 日常词汇的高效构词法</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 非通用词汇的规律构词法</a></li>
+            </ul>
+          </div>
+          <div class="hidden-xs hidden-sm">
+            <ul class="list-none" style="font-size: 20.2px; line-height: 180%">
+              <li style="font-size: 20.2px; font-weight: 500; color: #555;"> 语法</li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 总论</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 基本句法</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 扩展句法</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 句法与逻辑思维</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 句法中的高阶问题探讨</a></li>
+            </ul>
+          </div>
+          <div class="hidden-xs hidden-sm">
+            <ul class="list-none" style="font-size: 20.2px; line-height: 180%">
+              <li style="font-size: 20.2px; font-weight: 500; color: #555;"> 修辞</li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 修辞与人类情感表达</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 基本修辞</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 扩展修辞</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 修辞中的高阶问题探讨</a></li>
+            </ul>
+          </div>
+          <div class="hidden-xs hidden-sm">
+            <ul class="list-none" style="font-size: 20.2px; line-height: 180%">
+              <li style="font-size: 20.2px; font-weight: 500; color: #555;">
+                综合探讨 </li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 语言文字与人类文明</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 单词易创造与人类思想记录</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 授人与渔？还是授人与鱼？</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 边娱乐边学习基础文字</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 拾人牙慧的不同层次</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 历史词汇的记录</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 高阶问题探索</a></li>
+            </ul>
+          </div>
+          <div class="hidden-xs hidden-sm">
+            <ul class="list-none" style="font-size: 20.2px; line-height: 180%">
+              <li style="font-size: 20.2px; font-weight: 500; color: #555;">
+                无尽前沿探索 </li>
+              <li><a href="temp-index/index.html">&nbsp;&nbsp; 无限宇宙的词汇创造</a></li>
+              <li><a href="temp-index/index.html">&nbsp;&nbsp; Colating的未来升级版</a></li>
+            </ul>
+          </div>
+          <div class="hidden-xs hidden-sm">
+            <ul class="list-none" style="font-size: 20.2px; line-height: 180%">
+              <li style="font-size: 20.2px; font-weight: 500; color: #555;"> 其他</li>
+              <li><a href="temp-index/index.html">&nbsp;&nbsp; 语言文字杂谈</a></li>
+            </ul>
+          </div>
+          <div class="hidden-xs hidden-sm">
+            <ul class="list-none" style="font-size: 20.2px; line-height: 180%">
+              <li style="font-size: 20.2px; font-weight: 500; color: #555;"> 问与答
+              </li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; FAQ</a></li>
+            </ul>
+          </div>
+          <div class="hidden-xs hidden-sm">
+            <ul class="list-none" style="font-size: 20.2px; line-height: 180%">
+              <li style="font-size: 20.2px; font-weight: 500; color: #555;">
+                相关工具使用纪要 </li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp;
+                  SourceHanSerifSC-R</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; FontForge</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp;
+                  bluegriffon(free ver)</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp;
+                  W.P.S.10314.12012.2019</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; LibreOffice</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; Debian OS</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; VirtualBox</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; Bitvise ssh
+                  client(free ver)</a></li>
+            </ul>
+          </div>
+          <div class="hidden-xs hidden-sm">
+            <ul class="list-none" style="font-size: 20.2px; line-height: 180%">
+              <li style="font-size: 20.2px; font-weight: 500; color: #555;">
+                需要大家帮助 </li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 完善和美化字母</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 语言其他方面的帮助</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 意见与建议</a></li>
+            </ul>
+          </div>
+          <div class="hidden-xs hidden-sm">
+            <ul class="list-none" style="font-size: 20.2px; line-height: 180%">
+              <li style="font-size: 20.2px; font-weight: 500; color: #555;">
+                捐给&amp; 赠予 </li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 关于捐赠的思考</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 今天的饭与明天的饭</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 初期捐助款项的用途</a></li>
+              <li><a href="./temp-index/index.html">&nbsp;&nbsp; 基金会，未来之路</a></li>
+            </ul>
+          </div>
+          <div class="hidden-xs hidden-sm">
+            <ul class="list-none" style="font-size: 20.2px; line-height: 180%">
+              <li style="font-size: 20.2px; font-weight: 500; color: #555;"> 致谢
+              </li>
+              <li><a href="./streaming/index.html">&nbsp;&nbsp;... ...</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-9 col-md-pull-3">
+          <p style="margin: 20px 0px 5px 0px; font-size:22px; color: #317eac; line-height:180%;"><b>&nbsp;
+              项目网址</b></p>
+          <p style="margin: 0px 0px 5px 15px; font-size: 17.2px; font-weight:500; color: #555555; line-height: 150%">
+            <b style="color: #555555;">• Official Website:</b> <a href="https://colating.win/">
+              https://colating.win</a> <span style="margin: 10px 0px 10px 95px;">
+              <b>• IME in OS:</b> <a href="https://sourceforge.net/projects/colating/">
+                https://sourceforge.net/projects/colating</a></span></p>
+          <p style="margin: 0px 0px 5px 15px; font-size: 17.2px; font-weight:500; color: #555555; line-height: 150%">
+            <b style="color: #555555;">★ 捐赠网址:</b> <a href="https://a.colating.win/donate/">
+              https://a.colating.win/donate</a> <span style="margin: 10px 0px 10px 74px;">
+              <b>• 输入法 IME:</b> <a href="https://github.com/colating/">
+                https://github.com/colating</a></span></p>
+          <p style="margin: 0px 0px 5px 15px; font-size: 17.2px; font-weight:500; color: #555555; line-height: 150%">
+            <b style="color: #555555;">• Website2:</b> <a href="http://colating.mywebcommunity.org/">
+              http://colating.mywebcommunity.org</a> <span style="margin: 10px 0px 10px 15px;">
+              <b>• Members: </b> <a href="https://a.colating.win/">
+                https://a.colating.win</a></span></p>
+          <p style="margin: 0px 0px 5px 15px; font-size: 17.2px; font-weight:500; color: #555555; line-height: 150%">
+            <b style="color: #555555;">• 开放目录索引</b><a href="./docs-open/">
+              Documents Open Catalogue</a> <span style="margin: 10px 0px 10px 48px;">
+              <b>• 论坛: </b> <a href="https://a.colating.win/">
+                https://a.colating.win</a></span></p>
+          <p style="margin: 0px 0px 5px 15px; font-size: 17.2px; font-weight:500; color: #555555; line-height: 150%">
+            <b style="color: #555555;">☆ 日志</b><a href="log-idea/"> Idea log</a>
+            <span style="margin: 10px 0px 10px 48px;"> <b></b> <a href="https://a.colating.win/">
+              </a></span></p>
+          <p style="margin: 20px 0px 5px 15px; font-size: 17.2px; font-weight:500; color: #555555; line-height: 150%">
+            <span style="color: #ff3b3b;">⚠</span> <b style="color: #555555;">阅
+              读注意：</b><br>
+          </p>
+          <ol start="1" ;="" style="word-wrap:break-word; margin: 2px 10px 0px 0px; letter-spacing:1px; 
+				    font-size: 16.2px; font-weight:500; line-height:180%;">
+            <li style="color: #555555;"> 最新内容一般在主网站：<a href="https://colating.win/"><b>Official
+                  Website.</b></a></li>
+            <li>Colating 的构词字母在Unicode编码的 Private Use Zone， 所以常用<span style="color:#ff4d4d;"><b>嵌
+                  入字体的.pdf文件</b></span>格式发布。</li>
+            <li>Colating 的创造总是试图以理论化、系统化的语文哲学思想为指导，其哲学手稿，存放在网海天涯。</li>
+            <li>创造不同于应用，有灵感才会有创造，才会有网站的不定时更新。注意，更新不会另行通知。</li>
+          </ol>
+          <p style="word-wrap:break-word; margin: 0px 10px 15px 20px; letter-spacing:1px; 
+				    font-size: 16.2px; font-weight:500; line-height:180%;"> 注：Colating
+            Language（缩写：CLT）是为语音健全人类所准备的一种“通用语言文字”， 简称：CLT语文，或语文。</p>
+          <p style="margin: 20px 0px 0px 0px; letter-spacing:1px; font-size: 24.2px; 
+                    font-weight:520; color: #317eac; line-height: 180%"> <b>&nbsp;
+              简介：</b></p>
+          <p style="font-size: 20.2px; font-weight:520; color: #555555; line-height: 180%">
+            <b>&nbsp;&nbsp;&nbsp;&nbsp; Colating
+              Language（可乐听语）属于一种系统化创造的拉丁语族通用语言文字系统。 它由“52个标准构词字母 + 4个标准功能字母 +
+              4个用户自定义功能字母 + 2个淘汰存档索引功能字母”所组成。<br>
+            </b></p>
+          <p style="font-size: 20.2px; font-weight:520; color: #555555; line-height: 180%">
+            <b>&nbsp;&nbsp;&nbsp;&nbsp;
+              集合论思想、模糊逻辑推理思维，以及其他现代科学理论成果，始终贯穿于整个通用语言文字的创造过程， 这是Colating
+              Language 的主要特点之一。
+              假如无法消除概念、构词级别的逻辑错误，那么，在语法、修辞、语言系统级别的逻辑错误将很难，甚至是无法消除。 </b></p>
+          <p style="font-size: 20.2px; font-weight:520; color: #555555; line-height: 180%">
+            <b>&nbsp;&nbsp;&nbsp;&nbsp;
+              合理设计“原子概念标识符”，可消除字符盲；构造符合逻辑的“分子概念标识符”，可消除集元概念盲。
+              然而，字符盲与集元概念盲的消除，这是一对矛与盾，应该如何来取舍与折中呢？ </b></p>
+          <p style="font-size: 20.2px; font-weight:520; color: #e16a1a; line-height: 180%">
+            <b>&nbsp;&nbsp;&nbsp;&nbsp;Colating 通用语言文字的创造原理与依据是什么呢？</b></p>
+          <p style="font-size: 20.2px; font-weight:520; color: #ff4d4d; line-height: 180%">
+            <b>&nbsp;&nbsp;&nbsp;&nbsp;人类通用语言文字：本质，到底是什么？ 发展动力与迭代方向的作用机理，又是怎样的呢？</b><br>
+            <b>&nbsp;&nbsp;&nbsp;&nbsp;人类到底需要多少个数量的“原子概念标识符（词素或字）”，
+              才能够匹配人类的智慧能力水平呢？</b><br>
+          </p>
+          <p style="margin: 0px 0px 30px 0px; font-size: 20.2px; font-weight:520; color: #555555; line-height: 180%">
+            <b>&nbsp;&nbsp;&nbsp;&nbsp; 阅读本网站将可获得人类通用语言文字创造在实践与探索中所产生的一些逻辑和观点，
+              以及Colating Language 的具体实现过程。</b></p>
+          <table style="width: 100%;" border="0">
+            <tbody style="font-size:18px;line-height:26px;font-weight:520; line-height: 200%; background-color:#eef6fd;">
+              <tr>
+                <td>
+                  <p style="margin: 10px 10px 2px 10px;
+				    font-size: 28.2px; font-weight:520; line-height:200%; color: #6c9d35;">
+                    特点：</p>
+                  <ol start="1" ;="" style="word-wrap:break-word; margin: 2px 10px 15px 2px; letter-spacing:1px; 
+				    font-size: 20.2px; font-weight:520; line-height:180%;">
+                    <li> 易学习： 具备健硕的构词规律和语法规律，不需要在母语环境里，采用耳濡目染的方式来学习。
+                      在母语环境里，学习Colating语言文字，就像幼儿学习走路那样的简单。</li>
+                    <li> 易交流：见词能读，听音能写。这点类似于某些现行的表音语言文字。</li>
+                    <li style="letter-spacing:1px; font-weight:520; color: #555555;">
+                      易创造新单词：只要想，任何人随时随地都可以 创造出高效可用的无语音障碍交流的新的Colating表音单词。</li>
+                    <li>健硕的语言逻辑：模糊集合与模糊推理等等思想，始终贯穿于整个语文系统的创造过程。</li>
+                    <li>可迭代：Colating语言文字的学习，可迭代， 不会出现今天的学习对明天的学习帮助不大，甚至帮助很小的困境。
+                      Colating语言本身的发展可迭代，以不断适应人类认知概念暴增的未来环境。</li>
+                    <li>概念标识符可合理回收再利用：当一个概念标识符在若干千年（比如三千年）之中未被使用时，
+                      在将其归档后，则概念标识符可以被重新释义使用，以保持系统字符的高效性。</li>
+                    <li>历史单词的归档保存：概念标识符及其历史释义被归档永久保存，以保持历史的真实性。
+                      历史像一面镜子，总会存在着可以用来比较和借鉴的地方。</li>
+                    <li>Colating 部分常用自由词素、或个别单词：保留了英语的发音和释义；但字形大多有所不同，
+                      这是两种语言构词字母的数量与用法不一样的必定结果。<br>
+                      由于Colating 的构词法，以表音为首先原则；因此，这种做法的好处：可以根据英语词典来获得常用Colating
+                      单词的发音和释义；然后， 再根据Colating Language 的语法规则来推断其他Colating
+                      单词的发音或释义。 </li>
+                  </ol>
+                </td>
+              </tr>
+            </tbody>
+            <tbody style="margin: 20px 10px 2px 10px;
+			 font-size:0.2px;line-height:26px;font-weight:500; line-height: 200%; background-color:#111111;">
+              <tr>
+                <td> <br>
+                </td>
+              </tr>
+            </tbody>
+            <tbody style="font-size:18px;line-height:26px;font-weight:520; line-height: 200%; background-color:#f5f5f5;">
+              <tr>
+                <td>
+                  <p style="margin: 30px 10px 10px 10px;
+				    font-size: 26.2px; font-weight:520; line-height:180%; color: #555555;">
+                    注、一些主要概念解释：</p>
+                  <ul style="word-wrap:break-word; margin: 5px 0px 5px 0px;
+				    font-size: 24.2px; font-weight:500; line-height:180%; color: #317eac;">
+                    <li><b>概念标识符的分类</b></li>
+                  </ul>
+                  <ol style="word-wrap:break-word; margin: 5px 5px 15px 10px;
+				    font-size: 22.2px; font-weight:500; line-height:180%; color: #555555;">
+                    <li>“原子概念标识符”：相当于拉丁语中“自由词素”，或方块语文中的“字”。</li>
+                    <li>“分子概念标识符”：相当于丁语中“合成型单词”，或方块语文中的“词组”。</li>
+                    <li>“单体概念标识符”：包含“原子概念标识符”、“分子概念标识符”，
+                      它们相当于拉丁语中的“单词”，或方块语文中的“词组”。</li>
+                  </ol>
+                  <ul style="word-wrap:break-word; margin: 5px 5px 5px 0px;
+				    font-size: 24.2px; font-weight:500; line-height:180%; color: #317eac;">
+                    <li><b>Colating 简约的概念构造集合表达式</b></li>
+                  </ul>
+                  <ol start="1" ;="" style="word-wrap:break-word; margin: 5px 5px 15px 10px;
+				    font-size: 22.2px; font-weight:500; line-height:180%; color: #555555;">
+                    <li>{概念（简约式）}&amp; {概念标识符} = [{概念释义模块}]；[{元集构成模块}]。</li>
+                    <p>注6：中括号[]，表示：可选。</p>
+                  </ol>
+                  <ul style="word-wrap:break-word; margin: 5px 5px 5px 0px;
+				    font-size: 24.2px; font-weight:500; line-height:180%; color: #317eac;">
+                    <li><b> Colating 完整的概念构造集合表达式</b></li>
+                  </ul>
+                  <ol start="1" ;="" style="word-wrap:break-word; margin: 5px 5px 15px 10px;
+				    font-size: 22.2px; font-weight:500; line-height:180%; color: #555555;">
+                    <li>{概念（完整式）}&amp; {{本能概念标识符}，{人造概念标识符}} =
+                      [{释义最大论域}：[{跨本体概念关系}]，{对外主要表象}，{本体独有特征}]；[{设定局部论域}：{元集构成}]。</li>
+                    <p>注2：概念总是与概念标识符相对应。人类本能概念主要与“概念声音标识符”相对应。</p>
+                  </ol>
+                  <ul style="word-wrap:break-word; margin: 5px 5px 5px 0px;
+				    font-size: 24.2px; font-weight:500; line-height:180%; color: #317eac;">
+                    <li><b>Colating 完整的概念释义集合描述方法</b></li>
+                  </ul>
+                  <ol start="1" ;="" style="word-wrap:break-word; margin: 5px 5px 15px 10px;
+				    font-size: 22.2px; font-weight:500; line-height:180%; color: #555555;">
+                    <li>{概念（释义法）}&amp; {{本能概念标识符}，{人造概念标识符}} =
+                      [{释义最大论域}：集合描述法-&gt;（[{跨本体概念关系}]，{对外主要表象}，{本体独有特征}]）；
+                      [{设定局部论域}：集合列举法-&gt;（{元集构成}]）。</li>
+                  </ol>
+                  <ul style="word-wrap:break-word; margin: 5px 5px 5px 0px;
+				    font-size: 24.2px; font-weight:500; line-height:180%; color: #317eac;">
+                    <li><b>概念集合表达式的化简方法</b></li>
+                  </ul>
+                  <ol start="1" ;="" style="word-wrap:break-word; margin: 5px 5px 15px 10px;
+				    font-size: 22.2px; font-weight:500; line-height:180%; color: #555555;">
+                    <li>在指定了概念标识符之后：</li>
+                    <p>{概念} = {概念标识符}。</p>
+                    <li>采用自然语言描述概念：</li>
+                    <p>{概念标识符}@ {释义最大论域} = {概念释义模块} =
+                      集合描述法-&gt;（[{跨本体概念关系}]，{对外主要表象}，{本体独有特征}]）。</p>
+                    <li> 采用“集合列举法”对概念进行元集描述，是概念进行逻辑运算的前提基础：</li>
+                    <p>{概念标识符}@ {设定局部论域} = {元集构成模块} = 集合列举法-&gt; {元集构成}。</p>
+                  </ol>
+                  <ul style="word-wrap:break-word; margin: 5px 5px 5px 0px;
+				    font-size: 24.2px; font-weight:500; line-height:180%; color: #317eac;">
+                    <li><b>概念的逻辑运算原理简述</b></li>
+                  </ul>
+                  <ol start="1" ;="" style="word-wrap:break-word; margin: 5px 5px 15px 10px;
+				    font-size: 22.2px; font-weight:500; line-height:180%; color: #555555;">
+                    <li>除了抽象化的数字、语法概念、智灭类概念之外，宇宙中其他的一切，
+                      理论上都可以无限细分，也就是存在有相对无限多个论域。</li>
+                    <li>预处理的方法与步骤：对概念进行逻辑运算之前，需要进行概念预处理。</li>
+                    <ul start="1" ;="" style="word-wrap:break-word; margin: 0px 5px 5px -35px;
+				    font-size: 22.2px; font-weight:500; line-height:180%; color: #555555;">
+                      <li>按照需要讨论的具体问题，运用模糊数学原理，按照隶属度值的大小，选取和设定多个合理的论域。</li>
+                      <li>在设定论域中，对需要讨论的所有概念进行合理的{元集构成}分解；
+                        并进行0级概念参考层的回归（参见Colating 概念分级与分析图表法）。</li>
+                    </ul>
+                    <ul start="1" ;="" style="word-wrap:break-word; margin: 5px 5px 5px -35px;
+				    font-size: 22.2px; font-weight:500; line-height:180%; color: #555555;">
+                      <li> 按照不同的论域，利用Colating 概念分级与分析图表法，对所获得的多个逻辑运算结果进行分析，
+                        并对所得出的多个结果进行选择，从而得出结论。</li>
+                    </ul>
+                    <li> 采用“集合列举法”对概念进行元集描述，是概念进行逻辑运算的前提基础：</li>
+                    <p>{概念标识符}@ {设定局部论域} = {元集构成模块} = 集合列举法-&gt; {元集构成}。</p>
+                  </ol>
+                  <ul style="word-wrap:break-word; margin: 5px 5px 5px 0px;
+				    font-size: 24.2px; font-weight:500; line-height:180%; color: #317eac;">
+                    <li><b>“集元概念盲”的两种主要表现形式：</b></li>
+                  </ul>
+                  <ol start="1" ;="" style="word-wrap:break-word; margin: 5px 5px 15px 10px;
+				    font-size: 22.2px; font-weight:500; line-height:180%; color: #555555;">
+                    <li>以全盖偏</li>
+                    <p>当不含空集的元集数量大于等于2时，将“概念标识符”当成其中的某个或某些元集或子集来
+                      使用，而没有涵盖全部的非空元集加子集，从而产生了“以全盖偏”逻辑错误。 举例：Mbs. </p>
+                    <li>以偏概全</li>
+                    <p>当不含空集的元集数量大于等于2时， 将某个或某些元集的“元集概念标识符” 当成 “（母集）概念标识符”来使用。
+                      举例：Mbs.</p>
+                  </ol>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <h8 id="download-222"></h8>
+          <p style="margin: 30px 0px 5px 0px;"> <span style="font-size: 22.2px; font-weight:520; color: #e16a1a; line-height: 150%">
+              最近更新的内容 Change alway in the way... ...</span></p>
+          <p style="margin: 0px 0px 5px 15px; font-size: 21.2px; font-weight:500; color: #555555; line-height: 150%">
+            <b style="color: #555555;">•</b> <a href="./docs-open/COLATING%E4%BA%BA%E7%B1%BB%E9%80%9A%E7%94%A8%E8%AF%AD%E8%A8%80%E6%96%87%E5%AD%97%E5%88%9B%E9%80%A0%E5%93%B2%E5%AD%A6%E6%80%9D%E6%83%B3.pdf">
+              成为通用语言文字点评家，需要具备哪些知识或能力呢？</a></p>
+          <p style="margin: 5px 0px 5px 15px; font-size: 21.2px; font-weight:500; color: #555555; line-height: 150%">
+            <b style="color: #555555;">•</b> <a href="./docs-open/COLATING%E4%BA%BA%E7%B1%BB%E9%80%9A%E7%94%A8%E8%AF%AD%E8%A8%80%E6%96%87%E5%AD%97%E5%88%9B%E9%80%A0%E5%93%B2%E5%AD%A6%E6%80%9D%E6%83%B3.pdf">
+              一维坐标系隐含的深刻哲学原理，是成为合格通用语言文字创造者的必要条件。</a></p>
+          <p style="margin: 0px 0px 5px 15px; font-size: 21.2px; font-weight:500; color: #555555; line-height: 150%">
+            <b style="color: #555555;">•</b> <a href="./docs-open/COLATING%E4%BA%BA%E7%B1%BB%E9%80%9A%E7%94%A8%E8%AF%AD%E8%A8%80%E6%96%87%E5%AD%97%E5%88%9B%E9%80%A0%E5%93%B2%E5%AD%A6%E6%80%9D%E6%83%B3.pdf">
+              “字符盲”产生的原理及对策。</a> <span style="margin: 10px 0px 10px 125px;"> <b>•</b>
+              <a href="./docs-open/COLATING%E4%BA%BA%E7%B1%BB%E9%80%9A%E7%94%A8%E8%AF%AD%E8%A8%80%E6%96%87%E5%AD%97%E5%88%9B%E9%80%A0%E5%93%B2%E5%AD%A6%E6%80%9D%E6%83%B3.pdf">
+                “集元概念盲”产生的原理及对策。</a></span></p>
+          <a href="./docs-open/COLATING%E4%BA%BA%E7%B1%BB%E9%80%9A%E7%94%A8%E8%AF%AD%E8%A8%80%E6%96%87%E5%AD%97%E5%88%9B%E9%80%A0%E5%93%B2%E5%AD%A6%E6%80%9D%E6%83%B3.pdf">
+          </a>
+          <p style="margin: 0px 0px 5px 15px; font-size: 21.2px; font-weight:500; color: #555555; line-height: 150%"><a
+
+              href="capriccio/202102-5-kezhou-qiujian.html"> <b style="color: #555555;">•</b>
+            </a><a href="capriccio/202102-5-kezhou-qiujian.html">
+              同音字产生机理：赵元任的“施氏食狮史”</a> <span style="margin: 10px 0px 10px 20px;">
+              <b>•</b><a href="capriccio/202102-5-kezhou-qiujian.html">
+                场景介词与防忽悠：梁启超的今日之责任”</a></span></p>
+          <p style="margin: 25px 0px 5px 0px;
+                    font-size: 22.2px; font-weight:500; color: #555555; line-height: 180%">
+            &nbsp;&nbsp;&nbsp;&nbsp; Colating Language 是一种经过重大改良、并具备可持续迭代改良能力、
+            先进的通用拉丁语族新成员。<br>
+            &nbsp;&nbsp;&nbsp;&nbsp; 这是一种面向未来的人类通用型拉丁语族的语言文字。
+            与英语、俄语、法语、德语之类的语言一样，都是属于同一类型的通用拉丁语言文字的智慧产物。<br>
+            &nbsp;&nbsp;&nbsp;&nbsp; Colating
+            通过增加普通构词字母的数量，以解决拉丁语复杂的单个字母发多个不同弱规律性的音符问题 ；通过增加功能字母，以解决拉丁语中复杂的构词法问题。<br>
+            &nbsp;&nbsp;&nbsp;&nbsp; Colating 强化了通用语言的逻辑性，
+            同时，也顾及了自然语言表达的弹性，以及新增加了一些其他的特性；比如，历史词汇归档、可迭代性、
+            概念的分级与释义理解流程、概念的逻辑运算方法等等；Colating 的一些主要的语文方法和解决思路，很可能属于首创。</p>
+          <p style="margin: 25px 0px 35px 0px; 
+                    font-size: 20.2px; font-weight:520; color: #555555; line-height: 180%">
+            快速了解可乐听语； <a href="./quick-overview.html"> Quick overview Colating
+              Language: Read More... ...</a> </p>
+          <p style="margin: 0px 0px 0px 0px; font-size: 22.2px; font-weight:500; color: #555555; line-height: 180%">
+            <strong>NOTE</strong>: </p>
+          <ul style="word-wrap:break-word; margin: 0px 10px 15px 0px;">
+            <li>Colating Language 目前还处在创造的过程中，欢迎大家提出意见或建议，<br>
+              <a href="https://a.colating.win/donate/"><b>捐赠</b></a>，以及其他... ...</li>
+            <li>人类通用语言文字创造的自有特点，决定了Colating Language的前期创造是一个动态的、较长时间的、不断完善的过程；
+              由于目前的人力资源有限，加上深刻的、合理的、适用的哲学思想及语文创造， 这才本网站存在的真正价值和意义；</li>
+            <li>为了节约时间，以及避开由于Colating构词字母在Unicode编码的Private Use Zone
+              造成网页无法正常浏览等问题，因此，<span style="font-size: 22.2px; font-weight:500; color: #d62828; line-height: 180%">
+                本网站除了一些基础的、重要的内容会以网页的形式给出之外，其他的将以“嵌入字体的.pdf文件”的方式给出。</span></li>
+            <li>对于有些内容，将只会在members域给出。 </li>
+          </ul>
+          <p></p>
+          <h3 id="installing-with-pypi"></h3>
+        </div>
+      </div>
+      <footer class="small" style="font-size: 16.2px; font-weight:500; line-height: 160%">
+        <hr> Colating Language Group &amp;.Colating development Foundation,
+        Copyright ©200x- 2021 Colating Language Group. Licensed under the <br>
+        <a href="https://www.colating.win/licenses/">Colating License, Version
+          0.1</a>. </footer>
+    </div>
+  </body>
+</html>
