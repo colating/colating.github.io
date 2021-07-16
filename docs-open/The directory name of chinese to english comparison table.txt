@@ -1,0 +1,13 @@
+﻿Translate the directory's name from chinese to english.
+  
+A1-Colating-Manual // The colating documents is here!
+
+B1-哲学思想-ME   :: B2- Philosophical Thought - ME  ---本目录 已经关闭。手稿寄放在网海天涯。
+B2-哲学思想-外来 :: B2- Philosophical Thought - External
+
+C1-语言理论-语音  ::  C1- Linguistic Theory - Voice
+C2-语言理论-字符  ::  C2- Linguistic Theory - Character
+
+D1-例子分析-以全盖偏 :: D1- Example Analysis - Use the set concept to replace the subset or the element
+D2-例子分析-以偏概全 :: D2- Example Analysis - Overgeneralization
+D3-例子分析-综合     :: D3- Example Analysis - Comprehensive
