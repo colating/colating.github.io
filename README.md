@@ -2,7 +2,7 @@
 
 ##
 
-## colating Website. 
+## colating website. 
 https://colating.github.io
 
 https://colating.win
