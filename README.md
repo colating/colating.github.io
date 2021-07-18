@@ -10,6 +10,7 @@ https://colating.win
 http://www.colating.win
 
 ## colating 相关软件和手册
+https://sourceforge.net/projects/colating/files
 
 ## 输入法下载：
 https://github.com/colating/colating-rime-ime
