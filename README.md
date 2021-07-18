@@ -13,8 +13,9 @@ https://github.com/colating/colating-manual
 
 ## 项目主页：
 https://github.com/colating
-
+https://colating.github.io
 
 ## Project blog 项目博客
-https://colating.github.io/
+https://sourceforge.net/p/colating/blog
+
 
