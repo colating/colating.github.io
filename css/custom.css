@@ -141,6 +141,12 @@ footer a {
   padding: 4px 12px 1px 12px;
 }
 
+.newszzz {
+  background: #55555;
+  border-radius: 6px;
+  padding: 4px 12px 1px 12px;
+}
+
 .news h1, .news h2, .news h3, .news h4, .news h5 {
   color: rgb(85, 85, 85);
 }
