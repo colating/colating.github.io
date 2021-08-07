@@ -29,6 +29,7 @@ https://sourceforge.net/projects/colating/
 ## Project blog 项目博客
 https://sourceforge.net/p/colating/blog
 
+Email: colating@yandex.com    
 
 ## 简介
 This is a general human language.
