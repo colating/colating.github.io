@@ -15,8 +15,8 @@ http://www.colating.win
 https://sourceforge.net/projects/colating/files
 
 ## 输入法下载：
-https://github.com/colating/colating-rime-ime
-
+https://github.com/colating/colating-rime-ime      
+https://sourceforge.net/projects/colating/files/c-ime-src/
 
 ## 语言文字使用手册：
 https://github.com/colating/colating-manual
