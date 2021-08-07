@@ -16,15 +16,15 @@ https://sourceforge.net/projects/colating/files
 
 ## 输入法下载：
 https://github.com/colating/colating-rime-ime      
-https://sourceforge.net/projects/colating/files/c-ime-src/
+https://sourceforge.net/projects/colating/files/c-ime-src/      
+https://sourceforge.net/projects/colating/files/c-ime-in-os/
 
 ## 语言文字使用手册：
 https://github.com/colating/colating-manual
 
 
 ## 项目主页：
-https://github.com/colating
-
+https://github.com/colating      
 https://sourceforge.net/projects/colating/
 
 ## Project blog 项目博客
