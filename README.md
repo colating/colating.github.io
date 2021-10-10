@@ -22,6 +22,7 @@ https://sourceforge.net/projects/colating/files/c-ime-in-os/
 https://github.com/colating/colating-manual
 
 2021/10/10：Colating Language 可乐听语 • 期刊及随想录，Total Issue: R4-1 → 1 发布
+
 https://github.com/colating/colating.github.io/blob/main/docs-open/Colating-Language-Periodical-Capriccio-2021.pdf
 
 ## 项目主页：
