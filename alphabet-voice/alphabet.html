@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Capriccio | Coalting Language </title>
-    <link rel="preload" as="font" crossorigin="anonymous" href="../colating-font/ColatingCofangSans.woff2"
+    <link rel="preload" as="font" crossorigin="anonymous" href="../colating-font/ColatingCofangSansWeb.woff2"
 
       type="font/woff2">
-    <link rel="preload" as="font" crossorigin="anonymous" href="../colating-font/ColatingCofangSans.woff"
+    <link rel="preload" as="font" crossorigin="anonymous" href="../colating-font/ColatingCofangSansWeb.woff"
 
       type="font/woff">
-    <link rel="preload" as="font" crossorigin="anonymous" href="../colating-font/ColatingCofangSans.ttf"
+    <link rel="preload" as="font" crossorigin="anonymous" href="../colating-font/ColatingCofangSansWeb.ttf"
 
       type="font/truetype">
     <!-- Bootstrap core CSS -->
@@ -47,14 +47,14 @@
       font-weight: 400;
       font-style: normal;
 			font-display: swap; /* Read next point */  
-			unicode-range: U+E000-E200; /* Download only latin glyphs */
+			unicode-range: U+E000-E3FF; /* Download only latin glyphs 注意：限定了编码范围 */
       
       src: local("Colating Cofang"), 
-        url('../colating-font/ColatingCofangSans.woff2') format('woff2'),       
-        url('../colating-font/ColatingCofangSanst.woff') format('woff'),
-        url("../colating-font/ColatingCofangSans.ttf") format('truetype');
+        url('../colating-font/ColatingCofangSansWeb.woff2') format('woff2'),       
+        url('../colating-font/ColatingCofangSansWeb.woff') format('woff'),
+        url("../colating-font/ColatingCofangSansWeb.ttf") format('truetype');
 
-      } 
+    } 
       
      
       
@@ -65,7 +65,7 @@
 		div{font-size:30px;color:#333;font-family: "Colating Cofang";}
 		</style>
   </head>
-  <body id="bk-to-head" style="                      background-color: #efefda; font-size: 22.2px; line-height: 200%">
+  <body id="bk-to-head" style="                                     background-color: #efefda; font-size: 22.2px; line-height: 200%">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>  <![endif]-->
@@ -152,51 +152,53 @@
             普通构词字母</h4>
           <p style="font-family: 'Colating Cofang'; font-size: 20.2px;">
             上层键盘（小写），输入法，直接输入： </p>
-          <p style="font-family: 'Colating Cofang'; font-size: 28.2px;">   
-            &nbsp;&nbsp;    &nbsp;&nbsp;    &nbsp;&nbsp;•&nbsp;&nbsp;  
-             &nbsp;&nbsp;    &nbsp;&nbsp;    &nbsp;&nbsp;•&nbsp;&nbsp; 
-              &nbsp;&nbsp;    &nbsp;&nbsp;   </p>
+          <p style="font-family: 'Colating Cofang'; font-size: 28.2px;">   
+            &nbsp;&nbsp;    &nbsp;&nbsp;    &nbsp;&nbsp;•&nbsp;&nbsp;  
+             &nbsp;&nbsp;    &nbsp;&nbsp;    &nbsp;&nbsp;•&nbsp;&nbsp; 
+              &nbsp;&nbsp;      &nbsp;&nbsp;   </p>
           <p style="font-family: 'Colating Cofang'; font-size: 20.2px;">
-            下层键盘（小写），输入法，点“.” +小写字母输入： </p>
-          <p style="font-family: 'Colating Cofang'; font-size: 28.2px;">   
-            &nbsp;&nbsp;    &nbsp;&nbsp;    &nbsp;&nbsp;•&nbsp;&nbsp;  
-             &nbsp;&nbsp;    &nbsp;&nbsp;    &nbsp;&nbsp;•&nbsp;&nbsp; 
-              &nbsp;&nbsp;     &nbsp;&nbsp;     </p>
+            下层键盘（小写），输入法，按键(Shift) +小写字母输入： </p>
+          <p style="font-family: 'Colating Cofang'; font-size: 28.2px;">   
+            &nbsp;&nbsp;    &nbsp;&nbsp;   &nbsp;&nbsp;•&nbsp;&nbsp;   
+            &nbsp;&nbsp;    &nbsp;&nbsp;    &nbsp;&nbsp;•&nbsp;&nbsp;  
+             &nbsp;&nbsp;      &nbsp;&nbsp; </p>
           <br>
           <p style="font-family: 'Colating Cofang'; font-size: 20.2px;">
-            上层键盘（大写），输入法，逗号“,” +小写字母输入： </p>
-          <p style="font-family: 'Colating Cofang'; font-size: 26.2px;">   
-            &nbsp;&nbsp;    &nbsp;&nbsp;    &nbsp;&nbsp;•&nbsp;&nbsp;  
-             &nbsp;&nbsp;    &nbsp;&nbsp;    &nbsp;&nbsp;•&nbsp;&nbsp; 
-              &nbsp;&nbsp;    &nbsp;&nbsp;   </p>
+            上层键盘（大写），输入法，逗号(,) +小写字母输入： </p>
+          <p style="font-family: 'Colating Cofang'; font-size: 26.2px;">   
+            &nbsp;&nbsp;    &nbsp;&nbsp;    &nbsp;&nbsp;•&nbsp;&nbsp;  
+             &nbsp;&nbsp;    &nbsp;&nbsp;    &nbsp;&nbsp;•&nbsp;&nbsp; 
+              &nbsp;&nbsp;      &nbsp;&nbsp;   </p>
           <p style="font-family: 'Colating Cofang'; font-size: 20.2px;">
-            下层键盘（大写），输入法，分号“;” +小写字母输入： </p>
-          <p style="font-family: 'Colating Cofang'; font-size: 26.2px;">   
-            &nbsp;&nbsp;    &nbsp;&nbsp;    &nbsp;&nbsp;•&nbsp;&nbsp;  
-             &nbsp;&nbsp;    &nbsp;&nbsp;    &nbsp;&nbsp;•&nbsp;&nbsp; 
-              &nbsp;&nbsp;     &nbsp;&nbsp;     </p>
+            下层键盘（大写），输入法，分号(;) +小写字母输入： </p>
+          <p style="font-family: 'Colating Cofang'; font-size: 26.2px;">   
+            &nbsp;&nbsp;    &nbsp;&nbsp;    &nbsp;&nbsp;•&nbsp;&nbsp;  
+             &nbsp;&nbsp;    &nbsp;&nbsp;    &nbsp;&nbsp;•&nbsp;&nbsp; 
+              &nbsp;&nbsp;      &nbsp;&nbsp;</p>
           <br>
           <br>
           <h4 style="font-family: 'Colating Cofang'; font-size: 24.2px;  font-weight:520;">
             功能标记字母</h4>
           <p style="font-family: 'Colating Cofang'; font-size: 20.2px;">
-            系统功能字母（小写），输入法，单引号“'” +小写字母输入： </p>
-          <p style="font-family: 'Colating Cofang'; font-size: 28.2px;">  
-            &nbsp;&nbsp;   &nbsp;&nbsp;   &nbsp;&nbsp;•&nbsp;&nbsp;    
-          </p>
+            系统功能字母（小写），输入法，西文句号(.) +小写字母输入： </p>
+          <p style="font-family: 'Colating Cofang'; font-size: 28.2px;">    
+            &nbsp;&nbsp;     &nbsp;&nbsp;     &nbsp;&nbsp;•&nbsp;&nbsp;
+              </p>
           <p style="font-family: 'Colating Cofang'; font-size: 20.2px;">
-            系统功能字母（大写），输入法，横杆号"-" +小写字母输入： </p>
-          <p style="font-family: 'Colating Cofang'; font-size: 28.2px;">  
-            &nbsp;&nbsp;   &nbsp;&nbsp;   &nbsp;&nbsp;•&nbsp;&nbsp;    </p>
+            系统功能字母（大写），输入法，西文单撇号(') +小写字母输入： </p>
+          <p style="font-family: 'Colating Cofang'; font-size: 28.2px;">    
+            &nbsp;&nbsp;     &nbsp;&nbsp;     &nbsp;&nbsp;•&nbsp;&nbsp;
+              </p>
           <br>
           <p style="font-family: 'Colating Cofang'; font-size: 20.2px;">
-            用户功能字母（小写），输入法，单引号“'” +小写字母输入： </p>
-          <p style="font-family: 'Colating Cofang'; font-size: 28.2px;">  
-            &nbsp;&nbsp;   &nbsp;&nbsp;   &nbsp;&nbsp;•&nbsp;&nbsp;    </p>
+            通用功能字母（小写），输入法，西文句号(.) +小写字母输入： </p>
+          <p style="font-family: 'Colating Cofang'; font-size: 28.2px;">     
+            &nbsp;&nbsp;     &nbsp;&nbsp;     &nbsp;&nbsp;•&nbsp;&nbsp; 
+              </p>
           <p style="font-family: 'Colating Cofang'; font-size: 20.2px;">
-            用户功能字母（大写），输入法，横杆号"-" +小写字母输入： </p>
-          <p style="font-family: 'Colating Cofang'; font-size: 28.2px;">  
-            &nbsp;&nbsp;   &nbsp;&nbsp;   &nbsp;&nbsp;•&nbsp;&nbsp;    
+            通用功能字母（大写），输入法，西文上撇号号(') +小写字母输入： </p>
+          <p style="font-family: 'Colating Cofang'; font-size: 28.2px;">    
+            &nbsp;&nbsp;      &nbsp;&nbsp;     &nbsp;&nbsp;•&nbsp;&nbsp;  
           </p>
           <br>
           <h4 style="font-family: 'Colating Cofang'; font-size: 24.2px;  font-weight:520;">
@@ -232,5 +234,6 @@
           License, Version 0.1</a>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(simplify
         web) </footer>
     </div>
+    
   </body>
 </html>
