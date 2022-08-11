@@ -1,3 +1,0 @@
-change-log
-
-0.2.3.8£º20211014 Add one new function alphabet, Then renew IME and Font.
