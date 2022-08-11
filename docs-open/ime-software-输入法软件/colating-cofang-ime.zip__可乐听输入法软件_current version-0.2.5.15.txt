@@ -1,7 +1,0 @@
-colating-cofang-ime.zip
-current version is: 0.2.5.15
-
-
-注意：
-1. 存档之前，必须先在存档文件名的后面，加上“版本号”。
-

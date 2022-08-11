@@ -1,5 +1,0 @@
-doc name note:
-V0.0.0.1
-
-1. The "xxx___Current-Version-0.0.0.1.txt" must keep empty. 
-  So when list the files can use the "Size" to sort out the  "xxx___Current-Version-0.0.0.1.txt" and not.
