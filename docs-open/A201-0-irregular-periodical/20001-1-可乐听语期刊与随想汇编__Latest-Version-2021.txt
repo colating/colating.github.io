@@ -1,2 +1,0 @@
-真实文件的编号，可通过"2022-01-0-file-name-rule.txt"的命名规则来获得。
-The number of the real file number can be obtained through the naming rule of "2022-01-0-file-name-rule.txt".
