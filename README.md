@@ -1,13 +1,13 @@
 
-https://github.com/colating/free-colating-general-human-language
+Colating 人类通用语言，许可要求不会高于、或多于任何一种联合国官方语言：https://github.com/colating/free-colating-general-human-language
 
-https://github.com/colating/license-colango-general-language-theory
+colango 通用语言原理，有许可证要求：https://github.com/colating/license-colango-general-language-theory
 
-https://github.com/colating/colating-support
+一般可自由使用：https://github.com/colating/colating-support
 
-https://github.com/colating/cofang
+许可同 Colating 人类通用语言：https://github.com/colating/cofang
 
-https://github.com/colating/clgo-velosophy
+智慧学，类似古希腊的“智慧学”：https://github.com/colating/clgo-velosophy
 
 
 # Colating Language 科极语
