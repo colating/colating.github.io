@@ -1,7 +1,10 @@
 
 https://github.com/colating/free-colating-general-human-language
+
 https://github.com/colating/license-colango-general-language-theory
+
 https://github.com/colating/colating-support
+
 https://github.com/colating/cofang
 
 https://github.com/colating/clgo-velosophy
