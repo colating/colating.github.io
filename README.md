@@ -9,6 +9,10 @@ colango 通用语言原理，有许可证要求：https://github.com/colating/li
 
 智慧学，类似古希腊的“智慧学”：https://github.com/colating/clgo-velosophy
 
+## 䁒字UNICODE编码U+4052
+- 对“䁒”字进行重新释义，表示与眼、口、耳有关的不完整修饰词缀。
+- 科䁒语：科学的、与眼、口、耳有关的人类通用语言。
+
 
 # Colating Language 科极语
 colating language 构词法、语法
