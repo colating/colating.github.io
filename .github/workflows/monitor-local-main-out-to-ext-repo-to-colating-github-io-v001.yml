@@ -37,7 +37,7 @@ jobs:
       - name: Setup SSH Key
         run: |
           mkdir -p ~/.ssh
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          echo "${{ secrets.SSH_PRIVATE_KEY_WEB }}" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
           # 添加 GitHub 到已知主机，避免首次连接确认提示
           ssh-keyscan github.com >> ~/.ssh/known_hosts
@@ -49,5 +49,5 @@ jobs:
           
           # 强制推送 main 分支到目标仓库的 main 分支
           # --force 确保目标仓库与源仓库完全一致，覆盖任何差异
-          git push target main:mirror_from_cltg_docs_dev_main --force
+          git push target main:mirror_from_cltg_docs_dev_main_web --force
 
