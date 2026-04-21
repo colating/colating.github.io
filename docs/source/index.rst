@@ -1,4 +1,4 @@
-Welcome A222 documentation!
+Welcome AA222 documentation!
 ===================================
 
 **Lumache** (/lu'make/) is a Python library for cooks and food lovers
