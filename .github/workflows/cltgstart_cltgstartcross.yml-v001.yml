@@ -41,7 +41,7 @@
 ## 5. 公有仓库  copyleft-colating-general-human-language 的main分支，可以保留作为自由发挥。
 
 
-name: Mirror main mirror_from-cltg_docs_dev-main and push to pubblic repo
+name: cltg dev mirror to copyleft-colating-general-human-language
  
 on:
   push:
@@ -65,7 +65,7 @@ jobs:
       - name: Setup SSH Key
         run: |
           mkdir -p ~/.ssh
-          echo "${{ secrets.SSH_PRIVATE_KEY_WEB }}" > ~/.ssh/id_ed25519
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
           # 添加 GitHub 到已知主机，避免首次连接确认提示
           ssh-keyscan github.com >> ~/.ssh/known_hosts
