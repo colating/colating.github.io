@@ -6,9 +6,10 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Welcome TEST 111 documentation! &mdash; Lumache 0.1 documentation</title>
+  <title>Welcome Colating &mdash; Colating General Human Language 0.1 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="_static/css/colango_custom.css?v=5c85ce2d" />
 
   
       <script src="_static/jquery.js?v=5d32c60e"></script>
@@ -17,9 +18,54 @@
       <script src="_static/doctools.js?v=fd6eb6e6"></script>
       <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
     <script src="_static/js/theme.js"></script>
+    <link rel="author" title="About these documents" href="about.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Usage" href="usage.html" /> 
+    <link rel="next" title="API" href="api.html" /> 
+  <!-- add `style` or `link` tags with your CSS `@font-face` declarations here -->
+  <!-- ... and optionally preload the `woff2` for snappier page loads -->
+  <!-- #
+    <link rel="stylesheet" href="_static/vendor/lato_latin-extxxxx/1.44.1/index.css">
+   -->
+  <!-- #
+<link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/colango_fonts/ColangoSansWeb.woff2">
+<link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/colango_fonts/ColangoSansWeb.woff">
+<link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/colango_fonts/ColangoSansWeb.ttf">
+   -->
+  
+<style type="text/css">
+    @font-face {
+      font-family: "ColangoSans";
+      /** /font-size: 22px; ：： 这里设置，没有生效 */ 
+      font-weight: 500;
+      font-style: normal;
+			font-display: swap; /* Read next point */  
+      src: local("ColangoSans"), 
+        url("_static/colango_fonts/ColangoSansWeb.woff2") format('woff2'),
+        url("_static/colango_fonts/ColangoSansWeb.woff") format('woff'),
+        url("_static/colango_fonts/ColangoSansWeb.ttf") format('truetype');
+        }   
+</style>
+
+   
+<style type="text/css">
+    @font-face {
+      font-family: "HarmonyOS Sans SC Light";
+      /** /font-size: 22px; ：： 这里设置，没有生效 */ 
+      font-weight: 500;
+      font-style: normal;
+			font-display: swap; /* Read next point */  
+      src: local("ColangoSans"), 
+        url("_static/colango_fonts/HarmonyOS/HarmonyOS_Sans_SC_Regular.woff2") format('woff2'),
+        url("_static/colango_fonts/HarmonyOS/HarmonyOS_Sans_SC_Regular.woff") format('woff'),
+        url("_static/colango_fonts/HarmonyOS/HarmonyOS_Sans_SC_Regular.ttf") format('truetype');
+        }   
+</style>
+        
+
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -31,7 +77,7 @@
           
           
           <a href="#" class="icon icon-home">
-            Lumache
+            Colating General Human Language
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -42,7 +88,6 @@
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul>
-<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
 <li class="toctree-l1"><a class="reference internal" href="api.html">API</a></li>
 </ul>
 
@@ -52,7 +97,7 @@
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="#">Lumache</a>
+          <a href="#">Colating General Human Language</a>
       </nav>
 
       <div class="wy-nav-content">
@@ -60,7 +105,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Welcome TEST 111 documentation!</li>
+      <li class="breadcrumb-item active">Welcome Colating</li>
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -70,27 +115,23 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="welcome-test-111-documentation">
-<h1>Welcome TEST 111 documentation!<a class="headerlink" href="#welcome-test-111-documentation" title="Link to this heading"></a></h1>
+  <section id="welcome-colating">
+<h1>Welcome Colating<a class="headerlink" href="#welcome-colating" title="Link to this heading"></a></h1>
+<p>              </p>
 <p><strong>Lumache</strong> (/lu’make/) is a Python library for cooks and food lovers
 that creates recipes mixing random ingredients.
 It pulls data from the <a class="reference external" href="https://world.openfoodfacts.org/">Open Food Facts database</a>
 and offers a <em>simple</em> and <em>intuitive</em> API.</p>
-<p>Check out the <a class="reference internal" href="usage.html"><span class="doc">Usage</span></a> section for further information, including
-how to <a class="reference internal" href="usage.html#installation"><span class="std std-ref">Installation</span></a> the project.</p>
+<p>Check out the <span class="xref std std-doc">usage</span> section for further information, including
+#how to <span class="xref std std-ref">installation</span> the project.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>This project is under active development.</p>
+<p>This project is under active development.                </p>
 </div>
 <section id="contents">
 <h2>Contents<a class="headerlink" href="#contents" title="Link to this heading"></a></h2>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="usage.html#installation">Installation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="usage.html#creating-recipes">Creating recipes</a></li>
-</ul>
-</li>
 <li class="toctree-l1"><a class="reference internal" href="api.html">API</a></li>
 </ul>
 </div>
@@ -101,13 +142,13 @@ how to <a class="reference internal" href="usage.html#installation"><span class=
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="usage.html" class="btn btn-neutral float-right" title="Usage" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="api.html" class="btn btn-neutral float-right" title="API" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
 
   <div role="contentinfo">
-    <p>&#169; Copyright 2021, Graziella.</p>
+    <p>&#169; Copyright 2021, David.</p>
   </div>
 
   Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
@@ -124,7 +165,41 @@ how to <a class="reference internal" href="usage.html#installation"><span class=
       jQuery(function () {
           SphinxRtdTheme.Navigation.enable(true);
       });
-  </script> 
+  </script>
+    <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="Versions">
+      <span class="rst-current-version" data-toggle="rst-current-version">
+        <span class="fa fa-book"> Read the Docs</span>
+        v: latest
+        <span class="fa fa-caret-down"></span>
+      </span>
+      <div class="rst-other-versions">
+        <dl>
+          <dt>Versions</dt>
+            <dd><a href="#">latest</a></dd>
+            <dd><a href="#">1.0</a></dd>
+            <dd><a href="#">1.1</a></dd>
+        </dl>
+        <dl>
+          <dt>Downloads</dt>
+          <dd><a href="#">PDF</a></dd>
+          <dd><a href="#">ePub</a></dd>
+          <dd><a href="#">HTML</a></dd>
+        </dl>
+        <dl>
+          <dt>On Read the Docs</dt>
+            <dd>
+              <a href="#">Project Home</a>
+            </dd>
+            <dd>
+              <a href="#">Builds</a>
+            </dd>
+        </dl>
+        <dl>
+          <dt>Debug</dt>
+          <dd><a href="#" data-toggle="rst-debug-badge">Swap badge position</a></dd>
+        </dl>
+      </div>
+    </div>
 
 </body>
 </html>
