@@ -53,6 +53,11 @@ html_theme_options = {
 #    "repository_url": "https://github.com/{your-docs-url}",
 #    "use_repository_button": True,
 #    ...
+
+
+    'disable_version_dropdown': True,
+
+
 }
 
 html_title = "My site title"
