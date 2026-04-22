@@ -56,7 +56,7 @@ html_theme_options = {
 
 
     'disable_version_dropdown': True,
-
+    "use_download_button": False,
 
 }
 
