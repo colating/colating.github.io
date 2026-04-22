@@ -43,7 +43,19 @@ html_css_files = ['css/colango_custom.css']
 
 # -- Options for HTML output
 
-html_theme = 'sphinx_rtd_theme'
+#html_theme = 'sphinx_rtd_theme'
+html_theme = "pydata_sphinx_theme"
+#html_theme = "sphinx_book_theme"
+
+html_theme_options = {
+#### https://sphinx-book-theme.readthedocs.io/en/stable/tutorials/get-started.html
+#    ...
+#    "repository_url": "https://github.com/{your-docs-url}",
+#    "use_repository_button": True,
+#    ...
+}
+
+html_title = "My site title"
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
