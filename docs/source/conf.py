@@ -2,8 +2,8 @@
 
 # -- Project information
 
-project = 'Colating \n General Human Language'
-copyright = '2021, David'
+project = 'Colating General Human Language'
+copyleft = '2021, David'
 author = 'David'
 
 release = '0.1'
