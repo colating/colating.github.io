@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Colating General Human Language'
+project = 'Colating \nGeneral Human Language'
 copyright = '2021, David'
 author = 'David'
 
