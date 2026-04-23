@@ -3,7 +3,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,jupyternotebooks
 
 ### ONLY-ME ###
-ONLY-FOR-ME-*
+ONLY-FOR-ME*
 
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
