@@ -8,6 +8,8 @@ ONLY-FOR-ME*
 THIS-IS_GIT_DIR*
 docs/_build*
 docs/source/_build*
+docs/build*
+docs/source/build*
 
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
