@@ -88,8 +88,10 @@ jobs:
         run: |
          #### cd python/docs
           cd docs
-          #make html
-          sphinx-build -b html ./source ./build
+          rm source/conf.py
+          cp source/conf.py-for-sphinx-book-theme source/conf.py
+          make html
+          #sphinx-build -b html ./source ./build
           
       # 步骤 5: 部署到 GitHub Pages
       - name: Deploy to GitHub Pages
