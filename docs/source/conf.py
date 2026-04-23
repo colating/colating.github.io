@@ -17,10 +17,21 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    
+    "myst_parser",
 ]
 
 ##"myst_parser",
+
+
+# 指定支持的源文件后缀
+#source_suffix = {
+#    '.rst': 'restructuredtext',
+#    '.md': 'markdown',
+#    '.ipynb': 'jupyter_notebook',
+#}
+source_suffix = {
+    '.md': 'markdown',
+}
 
 intersphinx_mapping = {
 #    'python': ('https://docs.python.org/3/', None),
