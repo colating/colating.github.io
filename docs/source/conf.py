@@ -17,8 +17,10 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    "myst_parser",
+    
 ]
+
+##"myst_parser",
 
 intersphinx_mapping = {
 #    'python': ('https://docs.python.org/3/', None),
@@ -57,7 +59,7 @@ html_theme_options = {
 
 
     ## pydate
-    "use_download_button": False,
+##    "use_download_button": False,
 
 }
 
