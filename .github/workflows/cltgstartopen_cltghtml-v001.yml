@@ -89,7 +89,7 @@ jobs:
          #### cd python/docs
           cd docs
           rm source/conf.py
-          cp source/conf.py-for-sphinx-book-theme source/conf.py
+          cp source/conf.py---sphinx-book-theme source/conf.py
           make html
           #sphinx-build -b html ./source ./build
           
