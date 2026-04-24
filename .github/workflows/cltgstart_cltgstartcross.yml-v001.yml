@@ -80,5 +80,7 @@ jobs:
           # --force 确保目标仓库与源仓库完全一致，覆盖任何差异
           #git update-index --skip-worktree .github/ && 
           git rm --cached -r .github/
+          git commit -m "Remove temp_folder from version control"
+
           git push target tstart:tscross --force
 
