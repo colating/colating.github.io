@@ -1,8 +1,7 @@
 {
-    "about": 0.022,
+    "about": 0.017,
     "api": 0.002,
-    "index": 0.008,
-    "memo": 0.067,
+    "index": 0.009,
     "myst": 0.003,
     "sphinx-tools": 0.003
 }
