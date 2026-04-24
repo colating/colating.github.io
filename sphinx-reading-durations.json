@@ -1,10 +1,20 @@
 {
     "about": 0.018,
-    "api": 0.002,
-    "colango/index": 0.002,
-    "colating/index": 0.003,
-    "index": 0.013,
+    "alphabet/index": 0.002,
+    "api": 0.001,
+    "colango/index": 0.003,
+    "colating/colating-A": 0.002,
+    "colating/colating-B": 0.002,
+    "colating/index": 0.002,
+    "index": 0.017,
+    "language_proficiency/index": 0.002,
+    "language_theory/index": 0.002,
     "myst": 0.003,
+    "others/22": 0.002,
+    "others/index": 0.002,
     "sphinx-tools": 0.003,
-    "support/index": 0.002
+    "support": 0.002,
+    "support/index": 0.002,
+    "support/support-A": 0.002,
+    "support/support-A/support-A": 0.002
 }
