@@ -71,4 +71,5 @@ jobs:
         run: |
          #### cd python/docs
           # delete action yml file
+          cd ~
           rm -rf .github
