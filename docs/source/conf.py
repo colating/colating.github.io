@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'Colating General Human Language'
-copyleft = '2021, David'
+copyleft = '2026, David'
 author = 'David'
 
 release = '0.1'
@@ -18,6 +18,7 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
     "myst_parser",
+    'sphinx.ext.intersphinx' 
 ]
 
 ##"myst_parser",
@@ -31,7 +32,9 @@ extensions = [
 #}
 source_suffix = {
     '.md': 'markdown',
+    '.rst': 'restructuredtext',
 }
+
 
 intersphinx_mapping = {
 #    'python': ('https://docs.python.org/3/', None),
@@ -61,18 +64,16 @@ html_theme = 'sphinx_rtd_theme'
 #html_theme = "pydata_sphinx_theme"
 #html_theme = "sphinx_book_theme"
 
-html_theme_options = {
+#html_theme_options = {
 #### https://sphinx-book-theme.readthedocs.io/en/stable/tutorials/get-started.html
 #    ...
 #    "repository_url": "https://github.com/{your-docs-url}",
 #    "use_repository_button": True,
 #    ...
-
-
     ## pydate
 ##    "use_download_button": False,
+#}
 
-}
 
 html_title = "Colating Language"
 
