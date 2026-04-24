@@ -65,5 +65,5 @@
 - 4. 当公有仓库的mirror_from-cltg_docs_dev-main 分支有 push 信号时，产生 Webhooks 信号给 RTD。
 - 5. 公有仓库  copyleft-colating-general-human-language 的main分支，可以保留作为自由发挥。
 
-
-
+- 待解决：目前  colating.github.io 仓库的 action 工作流，不能删除，后续需要删除掉它。。。。
+- git 删除文件，都会保留记录；删除方法与操作系统方法不一样。
