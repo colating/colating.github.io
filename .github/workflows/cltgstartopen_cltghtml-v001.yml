@@ -92,6 +92,13 @@ jobs:
           cp source/conf.py---sphinx-book-theme source/conf.py
           make html
           #sphinx-build -b html ./source ./build
+
+          #git rm --cached -r .github/
+          #git commit -m "Remove temp_folder from version control"
+          cd ..
+          git rm --cached -r .github/
+          git commit -m "Remove temp_folder from version control"
+          git push
           
       # 步骤 5: 部署到 GitHub Pages
       - name: Deploy to GitHub Pages
