@@ -20,6 +20,19 @@ extensions = [
     "myst_parser",
 ]
 
+##"myst_parser",
+
+
+# 指定支持的源文件后缀
+#source_suffix = {
+#    '.rst': 'restructuredtext',
+#    '.md': 'markdown',
+#    '.ipynb': 'jupyter_notebook',
+#}
+source_suffix = {
+    '.md': 'markdown',
+}
+
 intersphinx_mapping = {
 #    'python': ('https://docs.python.org/3/', None),
 #    'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
@@ -40,13 +53,13 @@ html_static_path = ["_static"]
 ## https://docs.readthedocs.io/en/stable/guides/adding-custom-css.html?highlight=font#adding-custom-css-or-javascript-to-sphinx-documentation
 ## font ng doing....
 #html_style = 'css/clgo-theme.css'
-html_css_files = ['css/cltg-sphinx-book-theme.css']
+html_css_files = ['css/colango_custom.css']
 
 # -- Options for HTML output
 
-#html_theme = 'sphinx_rtd_theme'
+html_theme = 'sphinx_rtd_theme'
 #html_theme = "pydata_sphinx_theme"
-html_theme = "sphinx_book_theme"
+#html_theme = "sphinx_book_theme"
 
 html_theme_options = {
 #### https://sphinx-book-theme.readthedocs.io/en/stable/tutorials/get-started.html
@@ -57,7 +70,7 @@ html_theme_options = {
 
 
     ## pydate
-    "use_download_button": False,
+##    "use_download_button": False,
 
 }
 

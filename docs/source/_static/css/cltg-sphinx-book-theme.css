@@ -10,7 +10,7 @@
 /* 应用到正文 */
 body {
     font-family: 'ColangoSans' !important;
-    font-size: 120%;
+    font-size: 150%;
 #    line-height: 1.5 !important; /* 增加行高，防止文字拥挤 */
 }
 
