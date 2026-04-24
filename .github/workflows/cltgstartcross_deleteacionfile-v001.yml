@@ -66,13 +66,6 @@ jobs:
         with:
           fetch-depth: 0  # 确保获取完整的提交历史
 
-      # 步骤 2: 设置 Python 环境
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.12'
-          cache: 'pip'
-
       # 步骤 4: delete action yml file
       - name: delete action yml file
         run: |
