@@ -1,7 +1,10 @@
 {
     "about": 0.018,
     "api": 0.002,
-    "index": 0.009,
+    "colango/index": 0.002,
+    "colating/index": 0.003,
+    "index": 0.012,
     "myst": 0.003,
-    "sphinx-tools": 0.003
+    "sphinx-tools": 0.003,
+    "support/index": 0.002
 }
