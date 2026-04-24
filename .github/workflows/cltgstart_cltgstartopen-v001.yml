@@ -72,7 +72,7 @@ jobs:
           
       - name: Push to Repository B to pubblic
         run: |
-          # 替换下面的 TARGET_OWNER 和 TARGET_REPO 为仓库 B 的实际拥有者和名称
+          # 替换下面的 TARGET_OWNER 和 TARGET_REPO 为仓库 B 的实际拥有者和名称  
           git remote add target git@github.com:colating/colating.github.io.git
           git update-index --skip-worktree .github/
           
