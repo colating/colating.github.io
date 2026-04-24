@@ -13,7 +13,6 @@ body {
     font-size: 100%;
     line-height: 1.5 !important; /* 增加行高，防止文字拥挤 */
 }
-}
  
 /* 应用到标题 */
 h1, h2, h3, h4, h5, h6 {
