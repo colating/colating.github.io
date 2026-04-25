@@ -1,1 +1,0 @@
-# Colating & Colango Support                   
