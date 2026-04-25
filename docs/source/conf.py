@@ -9,6 +9,10 @@ author = 'David'
 release = '0.1'
 version = '0.1.0'
 
+####
+# The copyright holder and year(s)
+copyright = '>2K~2026, Colating'
+
 # -- General configuration
 
 extensions = [
@@ -63,6 +67,9 @@ html_css_files = ['css/colango_custom.css']
 html_theme = 'sphinx_rtd_theme'
 #html_theme = "pydata_sphinx_theme"
 #html_theme = "sphinx_book_theme"
+####
+# 在 conf.py 中添加或修改。关闭显示默认的“View page source ” 显示
+html_show_sourcelink = False
 
 #html_theme_options = {
 #### https://sphinx-book-theme.readthedocs.io/en/stable/tutorials/get-started.html
