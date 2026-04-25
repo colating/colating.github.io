@@ -1,1 +1,1 @@
-# language_theory index md
+# 语文理论
