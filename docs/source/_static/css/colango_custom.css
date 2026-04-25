@@ -33,3 +33,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 120% !important; /* 放大到默认的 120% */
     line-height: 1.7 !important; /* 增加行高，防止文字拥挤 */
 }
+
+/* 关闭版本显示 */
+/*
+.rst-versions {
+    display: none !important;
+}
+*/
