@@ -1,0 +1,13 @@
+# COLATING COPYLEFT LICENSE / 自由许可
+
+V0.0.1
+
+最小约束条件，为了保证 Colating Language 创造的顺利进行， Colating 字母采用 类似软件行业的 MIT许可，默认有 4种常用拉丁字重（Light‌，‌Regular、‌Bold 和 ‌Italic）的权利要求。
+
+Colating 人类通用语言的许可，不会高于、或多于任何一种联合国官方语言。但也不会超出不同于联合国官方语言中的不合理部分。
+
+    
+ 
+最终解释权：属于 Colating & Colango，这些权限未来将移交给社区。
+```
+
