@@ -38,3 +38,13 @@ h2 {
 pre, code {
    font-family: 'ColangoSans'; !important;
 }
+
+
+/*
+blockquote {
+    border-left: 4px solid #ccc;
+    margin: 0;
+    padding-left: 16px;
+    color: #666;
+}
+*/

@@ -6,12 +6,12 @@ project = 'Colating General Human Language'
 copyleft = '2026, David'
 author = 'David'
 
-release = '0.1'
-version = '0.1.0'
+release = '2604-0.002'
+version = '0.0.2'
 
 ####
 # The copyright holder and year(s)
-copyright = '>2K~2026, Colating'
+copyright = '<2K~2026, Colating'
 
 # -- General configuration
 
