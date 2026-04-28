@@ -16,14 +16,16 @@ copyright = '<2K~2026, Colating'
 # -- General configuration
 
 extensions = [
+    'sphinx.ext.todo',
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
     "myst_parser",
-    'sphinx.ext.intersphinx' 
-]
+    'sphinxcontrib.mermaid',
+    'sphinxcontrib.bibtex',
+    
 
 ##"myst_parser",
 
