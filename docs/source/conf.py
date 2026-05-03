@@ -23,12 +23,13 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
     "myst_parser",
+    'sphinx_design',
     'sphinxcontrib.mermaid',
-    'sphinxcontrib.bibtex',
     
-
+    
+]
 ##"myst_parser",
-
+## 'sphinxcontrib.bibtex', # 引用文献插件。需要首先设置，需要时再说
 
 # 指定支持的源文件后缀
 #source_suffix = {
