@@ -1,6 +1,17 @@
 # Colating 人类通用语言文字
 
-v0.0.11122233
+v0.0.1-2
+
+新手稿  
+[超越智慧极限语文概念理论：揭开李耳“道”与“恒道”概念的面纱](https://copyright-colango-theory.readthedocs.io/zh-cn/latest/idea-draft/laozi-dao.html#id8)
+[公孙龙“白马非马”思想的本质与意义](https://copyright-colango-theory.readthedocs.io/zh-cn/latest/idea-draft/white-horse-not-horse.html)
+
+重新启动 Cofang 100进制数学计数系统的创造。   
+之前早就想要开启这种数学计数系统创造项目，但由于当时的认识还模糊，定位在摇摆，所以就没有继续进行思考了。  
+Cofang计划：
+- 作为 Colating项目的附产品，
+- 为未来 IPv6域名提供支持。
+- 作为其他天文用途，或极微观的用途。
 
 ## 关于创极语                     
 
