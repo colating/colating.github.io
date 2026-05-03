@@ -4,6 +4,7 @@ v0.0.1-2
 
 新手稿  
 [超越智慧极限语文概念理论：揭开李耳“道”与“恒道”概念的面纱](https://copyright-colango-theory.readthedocs.io/zh-cn/latest/idea-draft/laozi-dao.html#id8)
+
 [公孙龙“白马非马”思想的本质与意义](https://copyright-colango-theory.readthedocs.io/zh-cn/latest/idea-draft/white-horse-not-horse.html)
 
 重新启动 Cofang 100进制数学计数系统的创造。   
