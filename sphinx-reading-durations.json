@@ -1,0 +1,19 @@
+{
+    "LICENSE": 0.013,
+    "about": 0.018,
+    "colating-language/advanced-grammar": 0.002,
+    "colating-language/advanced-language-analysis": 0.002,
+    "colating-language/alphabet": 0.002,
+    "colating-language/grammar": 0.002,
+    "colating-language/life-cycle": 0.002,
+    "colating-language/syntax": 0.002,
+    "colating-language/word-formation": 0.002,
+    "index": 0.029,
+    "link/index": 0.002,
+    "myst": 0.003,
+    "others/index": 0.003,
+    "sphinx-tools": 0.003,
+    "support": 0.002,
+    "support/ime/index": 0.002,
+    "support/index": 0.002
+}
